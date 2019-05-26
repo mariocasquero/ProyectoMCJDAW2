@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Proyecto DAW Mario</title>
+		<meta charset="UTF-8"/>
+		<script src="js/jquery-3.4.0.js"></script>
+		<link rel="stylesheet" href="css/estilos.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+	</head>
+	
+	<body onload="listarTodo()">
+		<header>
+			<h1>Spring Boot + AJAX</h1>
+		</header>
+		
+		<div class="contenido">
+			<div class="caja campos">
+				<label>ID: </label>
+				<input type="text" id="photoid" name="photoid" placeholder="ID"/>
+				
+				<label>Ruta: </label>
+				<input type="text" name="photoruta" id="photoruta" placeholder="Ruta"/>
+			</div>
+			
+			<div class="caja botones">
+				<button id="insertar">Insertar</button>
+				<br>
+				<button id="update">Modificar</button>
+				<br>
+				<button id="listar">Listar todo</button>
+				<br>
+				<button id="deleteAll">Borrar todo</button>
+				<br>
+				<button id="delid">Borrar por ID</button>
+				<br>
+				<button id="listarid">Buscar por ID</button>
+			</div>
+		</div>
+		
+		<div id="pruebas">
+			<table>
+				<tr>
+					<th>ID</th>
+					<th>Ruta</th>
+				</tr>
+			</table>
+		</div>
+		
+		<footer>
+			<p>Mario Casquero Jáñez</p>
+		</footer>
+	</body>
+	
+	<script src="js/crud.js"></script>
+</html>

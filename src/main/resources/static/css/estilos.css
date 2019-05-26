@@ -1,0 +1,99 @@
+body{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	color: dimgrey;
+	text-shadow: 1px 1px 2px mediumspringgreen;
+}
+
+header{
+	text-align: center;
+}
+
+input{
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: solid 1.5px dimgrey;
+	border-radius: 2.5px;
+	caret-color: simgrey;
+	color: dimgrey;
+}
+
+button{
+	background-color: dimgrey;
+	color: whitesmoke;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 3px 3px 11px black;
+	transition: all 0.3s ease-in;
+}
+
+button:hover{
+	box-shadow: 2px 2px 11px mediumspringgreen, 1px 1px 7px black;
+}
+
+table{
+	width: 50%;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+th{
+	width: 85%;
+}
+
+th:first-child{
+	width: 15%;
+}
+
+th, td{
+	border: solid 2px dimgrey;
+	text-align: center;
+}
+
+.contenido{
+	width: 90%;
+	height: 40%;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.caja{
+	display: inline-block;
+}
+
+.campos{
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	transform: translate(-50%, -50%);
+}
+
+.botones{
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.botones button{
+	display: block;
+	margin: 0 auto;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.7em;
+}
